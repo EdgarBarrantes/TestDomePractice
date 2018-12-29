@@ -1,0 +1,13 @@
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  a:hover {
+    cursor: help;
+  }
+  a:before {
+    content: '>';
+  }
+  a:after {
+    content: '<'
+  }
